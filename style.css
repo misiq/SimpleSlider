@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.demo{
+    display: flex;
+    justify-content: center;
+}
+
+.slider{
+    width: 500px;
+    height: 300px;
+    border: 5px solid red;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.slider img.active{
+    display: inline-block;
+}
